@@ -3,10 +3,10 @@
  * dependencies
  */
 
-var History = require('history')
-  , emitter = require('emitter')
-  , events = require('events')
-  , autosave = require('auto-save')(500);
+var History = require('component-history')
+  , emitter = require('component-emitter')
+  , events = require('component-events')
+  , autosave = require('bmcmahen-auto-save')(500);
 
 /**
  * Export `Editable`.

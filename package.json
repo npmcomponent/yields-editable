@@ -1,0 +1,18 @@
+{
+  "name": "yields-editable",
+  "description": "Fixing contenteditable.",
+  "version": "0.2.2",
+  "keywords": [
+    "editable",
+    "content",
+    "content editable sucks"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "component-history": "git://github.com/npmcomponent/component-history.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "bmcmahen-auto-save": "git://github.com/npmcomponent/bmcmahen-auto-save.git"
+  },
+  "license": "MIT"
+}
